@@ -77,7 +77,7 @@ xml_files = sorted(
         if file_name.endswith(".xml")
     ]
 )
-```
+
 
 # Get all JPEG image file paths in path_images and sort them
 jpg_files = sorted(
@@ -87,6 +87,7 @@ jpg_files = sorted(
         if file_name.endswith(".jpg")
     ]
 )
+```
 
 下面的函數讀取 XML 檔案並尋找影像名稱和路徑，然後迭代 XML 檔案中的每個物件以提取每個物件的邊界框座標和類別標籤。
 
